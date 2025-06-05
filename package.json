@@ -79,6 +79,7 @@
   },
   "packageManager": "yarn@1.22.17",
   "dependencies": {
-    "@changesets/cli": "^2.20.0"
+    "@changesets/cli": "^2.20.0",
+    "@tldraw/tldraw": "^3.13.1"
   }
 }
