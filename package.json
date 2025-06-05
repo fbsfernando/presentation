@@ -15,6 +15,9 @@
     "apps/vscode/*",
     "examples/*"
   ],
+  "resolutions": {
+    "next-auth": "^4.24.11"
+  },
   "scripts": {
     "build": "turbo run build",
     "build:www": "turbo run build:www --force",
@@ -78,6 +81,9 @@
     }
   },
   "packageManager": "yarn@1.22.17",
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@changesets/cli": "^2.20.0",
     "@tldraw/tldraw": "^3.13.1"
