@@ -1883,10 +1883,10 @@
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.1.0.tgz#73713399399b34aa5a01771fb73272b55b22c314"
   integrity sha512-nrIgY6t17FQ9xxwH3jj0a6EOiQ/WDHUos35Hghtr+SWN/ntHIQ7UpuvSi0vaLzZVHQWaDupKI+liO5vANcDeTQ==
 
-"@next/eslint-plugin-next@12.1.0":
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-12.1.0.tgz#32586a11378b3ffa5a93ac40a3c44ad99d70e95a"
-  integrity sha512-WFiyvSM2G5cQmh32t/SiQuJ+I2O+FHVlK/RFw5b1565O2kEM/36EXncjt88Pa+X5oSc+1SS+tWxowWJd1lqI+g==
+"@next/eslint-plugin-next@12.3.7":
+  version "12.3.7"
+  resolved "https://registry.npmjs.org/@next/eslint-plugin-next/-/eslint-plugin-next-12.3.7.tgz"
+  integrity sha512-L3WEJJBd1CUUsuxSEThheAV5Nh6/mzCagwj4LHaYlANBkW8Hmg8Ne8l/Vx/sPyfyE7FjuKyiNYWbSVpXRvrmaw==
   dependencies:
     glob "7.1.7"
 
@@ -6783,19 +6783,19 @@ escodegen@^2.0.0:
     source-map "~0.6.1"
 
 eslint-config-next@^12.0.10:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-12.1.0.tgz#8ace680dc5207e6ab6c915f3989adec122f582e7"
-  integrity sha512-tBhuUgoDITcdcM7xFvensi9I5WTI4dnvH4ETGRg1U8ZKpXrZsWQFdOKIDzR3RLP5HR3xXrLviaMM4c3zVoE/pA==
+  version "12.3.7"
+  resolved "https://registry.npmjs.org/eslint-config-next/-/eslint-config-next-12.3.7.tgz"
+  integrity sha512-27XeoFARn0e5DnReggt0Wukgd2QJGepb+ZgdTz1vhJVBAd5uG2ICzbOH4j/ZUUYmJY+waFG+CCrTPd3r+rSAfQ==
   dependencies:
-    "@next/eslint-plugin-next" "12.1.0"
-    "@rushstack/eslint-patch" "^1.0.8"
-    "@typescript-eslint/parser" "^5.0.0"
-    eslint-import-resolver-node "^0.3.4"
-    eslint-import-resolver-typescript "^2.4.0"
-    eslint-plugin-import "^2.25.2"
+    eslint-plugin-react "^7.31.7"
+    eslint-plugin-import "^2.26.0"
     eslint-plugin-jsx-a11y "^6.5.1"
-    eslint-plugin-react "^7.27.0"
-    eslint-plugin-react-hooks "^4.3.0"
+    "@rushstack/eslint-patch" "^1.1.3"
+    "@next/eslint-plugin-next" "12.3.7"
+    "@typescript-eslint/parser" "^5.21.0"
+    eslint-plugin-react-hooks "^4.5.0"
+    eslint-import-resolver-node "^0.3.6"
+    eslint-import-resolver-typescript "^2.7.1"
 
 eslint-import-resolver-node@^0.3.4, eslint-import-resolver-node@^0.3.6:
   version "0.3.6"
@@ -9926,27 +9926,30 @@ next-transpile-modules@^9.0.0:
     escalade "^3.1.1"
 
 next@^12.0.7:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/next/-/next-12.1.0.tgz#c33d753b644be92fc58e06e5a214f143da61dd5d"
-  integrity sha512-s885kWvnIlxsUFHq9UGyIyLiuD0G3BUC/xrH0CEnH5lHEWkwQcHOORgbDF0hbrW9vr/7am4ETfX4A7M6DjrE7Q==
+  version "12.3.7"
+  resolved "https://registry.npmjs.org/next/-/next-12.3.7.tgz"
+  integrity sha512-3PDn+u77s5WpbkUrslBP6SKLMeUj9cSx251LOt+yP9fgnqXV/ydny81xQsclz9R6RzCLONMCtwK2RvDdLa/mJQ==
   dependencies:
-    "@next/env" "12.1.0"
-    caniuse-lite "^1.0.30001283"
-    postcss "8.4.5"
-    styled-jsx "5.0.0"
-    use-subscription "1.5.1"
+    postcss "8.4.14"
+    "@next/env" "12.3.7"
+    styled-jsx "5.0.7"
+    "@swc/helpers" "0.4.11"
+    caniuse-lite "^1.0.30001406"
+    use-sync-external-store "1.2.0"
   optionalDependencies:
-    "@next/swc-android-arm64" "12.1.0"
-    "@next/swc-darwin-arm64" "12.1.0"
-    "@next/swc-darwin-x64" "12.1.0"
-    "@next/swc-linux-arm-gnueabihf" "12.1.0"
-    "@next/swc-linux-arm64-gnu" "12.1.0"
-    "@next/swc-linux-arm64-musl" "12.1.0"
-    "@next/swc-linux-x64-gnu" "12.1.0"
-    "@next/swc-linux-x64-musl" "12.1.0"
-    "@next/swc-win32-arm64-msvc" "12.1.0"
-    "@next/swc-win32-ia32-msvc" "12.1.0"
-    "@next/swc-win32-x64-msvc" "12.1.0"
+    "@next/swc-darwin-x64" "12.3.4"
+    "@next/swc-freebsd-x64" "12.3.4"
+    "@next/swc-darwin-arm64" "12.3.4"
+    "@next/swc-android-arm64" "12.3.4"
+    "@next/swc-linux-x64-gnu" "12.3.4"
+    "@next/swc-linux-x64-musl" "12.3.4"
+    "@next/swc-win32-x64-msvc" "12.3.4"
+    "@next/swc-linux-arm64-gnu" "12.3.4"
+    "@next/swc-win32-ia32-msvc" "12.3.4"
+    "@next/swc-android-arm-eabi" "12.3.4"
+    "@next/swc-linux-arm64-musl" "12.3.4"
+    "@next/swc-win32-arm64-msvc" "12.3.4"
+    "@next/swc-linux-arm-gnueabihf" "12.3.4"
 
 node-abi@^3.3.0:
   version "3.8.0"
