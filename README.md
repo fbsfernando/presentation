@@ -1,5 +1,7 @@
 Welcome to the [tlsides](https://tlslides.com) monorepo.
 
+This project requires Node.js 20. We recommend using nvm to manage versions.
+
 ## Contents
 
 This repository is a monorepo containing two packages:
