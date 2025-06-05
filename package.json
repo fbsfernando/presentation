@@ -78,6 +78,9 @@
     }
   },
   "packageManager": "yarn@1.22.17",
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "@changesets/cli": "^2.20.0",
     "@tldraw/tldraw": "^3.13.1"
